@@ -1,9 +1,17 @@
 package shop;
+
 public class Supermarket {
-   static  String prod_name="milk";
-   static  int price=20;
+     String prod_name;
+     int price;
+     public Supermarket(String name,int rate){
+        prod_name=name;
+        price=rate;
+     }
 public static void main(String[] args){
-    System.out.println(prod_name);
-    System.out.println(price);
+    Supermarket item=new Supermarket("milk",30);
+    System.out.println(item.prod_name);
+    System.out.println(item.price);
+
 }
+
 }

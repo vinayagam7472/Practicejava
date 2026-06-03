@@ -27,14 +27,15 @@
 // }
 
 public class Trail{
-    String name;
-    int age;
-    public Trail(String name){
-        name=name;
-        age=21;
-    }
+    // String name;
+    // int age;
+    // public Trail(String name){
+    //     name=name;
+    //     age=21;
+    // }
     public static void main(String[] args){
-        Trail details=new Trail("vin");
-        System.out.println(details.name);
+        // Trail details=new Trail("vin");
+        // System.out.println(details.name);
+        System.out.println(args);
     }
 }
